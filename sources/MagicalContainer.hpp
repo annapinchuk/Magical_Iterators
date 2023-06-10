@@ -26,6 +26,9 @@ namespace ariel
             ~AscendingIterator();
             int *begin();
             int *end();
+            MagicalContainer *get_container();
+            size_t *get_iterator();
+
         };
         class SideCrossIterator
         {
@@ -38,6 +41,8 @@ namespace ariel
             ~SideCrossIterator();
             int* begin();
             int* end();
+             MagicalContainer *get_container();
+            size_t *get_iterator();
         };
         class PrimeIterator
         {
@@ -50,6 +55,8 @@ namespace ariel
             ~PrimeIterator();
             int* begin();
             int* end();
+             MagicalContainer *get_container();
+            size_t *get_iterator();
         };
     };
 } // namespace ariel
